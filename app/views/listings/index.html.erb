@@ -3,9 +3,9 @@
        <% @listings.each do |listing| %>
         <div class="col-md-3">
           <div class="thumbnail">
-          <%= image_tag listing.image.url %>
+        
           <div class="caption">
-           
+          
               <p><%= number_to_currency (listing.price) %></p>
               <%= link_to 'Show', listing, class: "btn btn-link" %><br>
               <%= link_to 'Edit', edit_listing_path(listing), class: "btn btn-link" %><br>
