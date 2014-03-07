@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  delivery_address: MyString
+  delivery_city: MyString
+  delivery_state: MyString
+
+two:
+  delivery_address: MyString
+  delivery_city: MyString
+  delivery_state: MyString

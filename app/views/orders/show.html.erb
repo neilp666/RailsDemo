@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Delivery address:</strong>
+  <%= @order.delivery_address %>
+</p>
+
+<p>
+  <strong>Delivery city:</strong>
+  <%= @order.delivery_city %>
+</p>
+
+<p>
+  <strong>Delivery state:</strong>
+  <%= @order.delivery_state %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>
